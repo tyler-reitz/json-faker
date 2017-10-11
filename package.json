@@ -1,0 +1,18 @@
+{
+  "name": "json-faker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node generateMockData.js",
+    "start-mock-api": "json-server --watch src/api/db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "Tyler Reitz <tdreitz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-schema-faker": "^0.5.0-rc11",
+    "json-server": "^0.12.0"
+  }
+}

@@ -1,0 +1,1 @@
+https://medium.freecodecamp.org/rapid-development-via-mock-apis-e559087be066
